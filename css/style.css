@@ -1,3 +1,6 @@
+
+/* GENERAL RULES */
+
 *{
   box-sizing: border-box;
   text-align: center;
@@ -9,6 +12,26 @@ section{
   margin: 0 auto 50px auto;
 }
 
+.marg{
+  border:solid transparent 15px;
+}
+
+.wd90{
+  width:90%;
+  margin:auto;
+}
+
+ul{
+  list-style: none;
+}
+
+.star_icon{
+  padding:15px;
+  font-size: 35px;
+}
+
+/* NavBar */
+
 nav{
   color:#fff;
   background-color: #2c3e50;
@@ -17,20 +40,18 @@ nav{
   position: fixed;
   z-index: 100;
 }
-ul{
-  list-style: none;
-}
-
 
 nav ul li{
   margin-right: 20px;
   display: inline-block;
 }
 
-
 nav *{
   line-height: 45px;
 }
+
+/* NavBar FOR Smartphone */
+
 #ham{
   max-width: 70%;
   max-height: 70%;
@@ -39,25 +60,30 @@ nav *{
 #ham:hover{
   cursor: pointer;
 }
+
 .smartnav{
   display:none;
 }
 
+/* JUMBOTRON */
 
 #jumbo{
   min-height: 450px;
   background-color: #1abc9c;
   color:white;
 }
+
 #jumbo hr{
   border:solid 1px white;
   width:10%;
   display: inline-block;
   text-align: center;
 }
+
 #jumbo ul{
   padding-bottom:50px;
 }
+
 #jumbo ul li{
   display: inline;
   padding-bottom:50px;
@@ -69,14 +95,13 @@ nav *{
   margin-top:10%;
 }
 
-.marg{
-  border:solid transparent 15px;
-}
+/* PORTFOLIO */
 
 .box{
     min-width: 100%;
     min-height:100%;
 }
+
 .box img{
   border-radius: 10px;
     min-width:100%;
@@ -88,22 +113,25 @@ nav *{
   display: inline-block;
   border:1px solid black;
 }
+
 #portfolio img{
   max-width:20%;
   max-height:20%;
 }
 
-
+/* ABOUT SECTION */
 
 #about{
   color:white;
   background-color: #1abc9c;
 }
+
 #about hr{
   width:10%;
   display: inline-block;
   border:1px solid white;
 }
+
 #about button{
   padding:10px;
   border: white solid 1px;
@@ -111,21 +139,22 @@ nav *{
   border-radius: 5px;
   margin-bottom:5%;
 }
+
 #about p{
   padding:50px ;
   font-size:18px;
 }
-.star_icon{
-  padding:15px;
-  font-size: 35px;
-}
+
+/* CONTACT FORM */
+
 form hr{
   width:10%;
   display: inline-block;
   border:1px solid black;
 }
+
 input{
-  margin: auto;
+  margin: 15px auto;
   text-align:left;
   display: block;
   width:70%;
@@ -134,32 +163,34 @@ input{
   border:none;
   border-bottom: black solid 1.5px;
 }
- form textarea{
-   font-size: 18px;
-   width:70%;
-   margin:15px 0 0 0 ;
-   text-align: left;
-   border:none;
-   border-bottom: black solid 1.5px;
- }
 
- form button{
-   display: block;
-   margin:25px 0 25px 15%;
-   background-color:#1abc9c;
-   color:white;
-   padding:10px 15px;
-   border-radius: 5px;
-   border: none;
- }
-.wd90{
-  width:90%;
-  margin:auto;
+form textarea{
+  font-size: 18px;
+  width:70%;
+  margin: ;
+  text-align:left;
+  border:none;
+  border-bottom: black solid 1.5px;
 }
+
+form button{
+  display: block;
+  margin:25px 0 25px 15%;
+  background-color:#1abc9c;
+  color:white;
+  padding:10px 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* FOOTER */
+
 footer{
   background-color: #3a546d;
   color:white;
+  padding: 50px 0;
 }
+
 #social li{
   display: inline-block;
   border:white solid 1px;
@@ -169,6 +200,7 @@ footer{
   margin-right: 10px;
   position:relative;
 }
+
 #social li img{
   max-width: 50%;
   max-height: 50%;
@@ -177,16 +209,19 @@ footer{
   left:50%;
   transform: translate(-50%,-50%);
 }
-#copyright{
+
+#SubFooter{
   background-color:#2c3e50;
   color:white;
   margin:0;
-  padding:20px;
+  padding:15px;
 }
+
 #boot{
   color:#1db096;
 }
 
+/*MEDIA QUERY FOR HAMBURGER MENU ON Smartphone SCREEN*/
 
 @media screen and (max-width:991px){
   .smartnav{
