@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  margin:0 auto;
+  padding:0;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+
+nav ul li{
+  margin-right: 20px;
+  display: inline-block;
+}
+
+nav{
+  color:#fff;
+  background-color: #2c3e50;
+  height:50px;
+}
+
+nav *{
+  line-height: 45px;
+}
+
+#jumbo{
+  min-height: 450px;
+  background-color: #1abc9c;
+}
+
+#jumbo ul li{
+  display: inline;
+  margin:auto auto;
+}
+
+#jumbo img{
+  max-width: 20%;
+  max-height: 20%;
+  margin-top:5%;
+}
+.pink{
+  background-color:#ba4b63;
+}
+hr{
+  width:10%;
+  display: inline-block;
+}
+#portfolio img{
+  max-width:20%;
+  max-height:20%;
+}
