@@ -4,7 +4,9 @@
   padding:0;
   text-align: center;
 }
-
+section{
+  margin: 0 auto 50px auto;
+}
 ul{
   list-style: none;
 }
@@ -19,6 +21,8 @@ nav{
   color:#fff;
   background-color: #2c3e50;
   height:50px;
+  width:100%;
+  position: fixed;
 }
 
 nav *{
@@ -50,4 +54,43 @@ hr{
 #portfolio img{
   max-width:20%;
   max-height:20%;
+}
+#about{
+  background-color: #1abc9c;
+}
+#about button{
+  width:10%;
+  height:50px;
+}
+#about p{
+  padding:50px 100px;
+  font-size:18px;
+  color:white;
+}
+.star_icon{
+  color:black;
+padding:15px;
+  font-size: 35px;
+}
+form{
+}
+
+footer{
+  background-color: #3a546d;
+  color:white;
+}
+
+#copyright{
+  background-color:#2c3e50;
+  color:white;
+  margin:0;
+  padding:50px;
+}
+
+input{
+  margin:0 auto;
+  text-align: left;
+  display: block;
+  border:none;
+  border-bottom: black solid 1px;
 }
