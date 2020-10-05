@@ -61,9 +61,14 @@ nav *{
   border:solid transparent 15px;
 }
 
-.pink{
-  background-color:#ba4b63;
-    min-height: 100px;
+.box{
+    min-width: 100%;
+    min-height:100%;
+}
+.box img{
+  border-radius: 10px;
+    min-width:100%;
+    min-height:100%;
 }
 
 #portfolio hr{
