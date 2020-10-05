@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
-  margin:0 auto;
-  padding:0;
+  /* margin:0 auto; */
+  /* padding:0; */
   text-align: center;
 }
 section{
@@ -44,8 +44,12 @@ nav *{
   max-height: 20%;
   margin-top:5%;
 }
+.marg{
+  border:solid transparent 15px;
+}
 .pink{
   background-color:#ba4b63;
+    min-height: 100px;
 }
 hr{
   width:10%;
@@ -55,6 +59,13 @@ hr{
   max-width:20%;
   max-height:20%;
 }
+
+.pad{
+
+  margin:25px auto;
+
+}
+
 #about{
   background-color: #1abc9c;
 }
