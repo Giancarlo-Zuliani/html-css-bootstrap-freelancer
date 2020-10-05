@@ -84,16 +84,24 @@ nav *{
 
 
 #about{
+  color:white;
   background-color: #1abc9c;
 }
-#about button{
+#about hr{
   width:10%;
-  height:50px;
+  display: inline-block;
+  border:1px solid white;
+}
+#about button{
+  padding:10px;
+  border: white solid 1px;
+  background-color: inherit;
+  border-radius: 5px;
+  margin-bottom:5%;
 }
 #about p{
-  padding:50px 100px;
+  padding:50px ;
   font-size:18px;
-  color:white;
 }
 .star_icon{
   padding:15px;
