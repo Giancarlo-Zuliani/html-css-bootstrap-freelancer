@@ -107,8 +107,21 @@ nav *{
   padding:15px;
   font-size: 35px;
 }
-form{
+form hr{
+  width:10%;
+  display: inline-block;
+  border:1px solid black;
 }
+input{
+  margin: auto;
+  text-align:left;
+  display: block;
+  width:70%;
+  height:300px;
+  border:none;
+  border-bottom: black solid 1px;
+}
+
 
 footer{
   background-color: #3a546d;
@@ -120,12 +133,4 @@ footer{
   color:white;
   margin:0;
   padding:50px;
-}
-
-input{
-  margin:0 auto;
-  text-align: left;
-  display: block;
-  border:none;
-  border-bottom: black solid 1px;
 }
