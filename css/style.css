@@ -34,6 +34,7 @@ section{
   padding:15px;
   font-size: 35px;
 }
+
 .jumbotron .container{
   background-color: #1abc9c;
 }
@@ -47,22 +48,7 @@ nav div{
 
 #NavBar{
   margin:0;
-}
-
-
-/* NavBar FOR Smartphone */
-
-#ham{
-  max-width: 70%;
-  max-height: 70%;
-}
-
-#ham:hover{
-  cursor: pointer;
-}
-
-.smartnav{
-  display:none;
+  border:none;
 }
 
 /* JUMBOTRON */
@@ -178,7 +164,7 @@ form hr{
 }
 
 input{
-  margin: 15px auto;
+  margin: 15px auto!important;
   text-align:left;
   display: block;
   width:70%;
@@ -243,15 +229,4 @@ footer{
 
 #boot{
   color:#1db096;
-}
-
-/*MEDIA QUERY FOR HAMBURGER MENU ON Smartphone SCREEN*/
-
-@media screen and (max-width:991px){
-  .smartnav{
-    display:block;
-  }
-  .desktopnav{
-    display:none;
-  }
 }
