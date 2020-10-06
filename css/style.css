@@ -201,6 +201,11 @@ footer{
   padding: 50px 0;
 }
 
+footer div {
+  margin:auto!important;
+
+}
+
 #social li{
   display: inline-block;
   border:white solid 1px;
